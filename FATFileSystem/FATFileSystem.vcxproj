@@ -115,11 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FAT.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClInclude Include="FAT.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FAT.h" />
+    <ClCompile Include="FAT.c" />
+    <ClCompile Include="Source.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fat_file_system.bin" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
