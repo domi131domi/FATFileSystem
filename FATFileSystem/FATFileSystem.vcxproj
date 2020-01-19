@@ -122,6 +122,11 @@
     <ClCompile Include="Source.c" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="copied.txt" />
+    <Text Include="example3blocks.txt" />
+    <Text Include="example_file.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="fat_file_system.bin" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

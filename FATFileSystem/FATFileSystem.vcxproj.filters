@@ -28,6 +28,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="example_file.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="copied.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="example3blocks.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="fat_file_system.bin">
       <Filter>Resource Files</Filter>
     </None>
